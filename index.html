@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Jeff's Website</title>
+    </head>
+    <style>
+            body {
+                background: rgb(145, 21, 21);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 20;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(187, 232, 9);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 500px;
+                border-radius:15px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    
+    <body>
+        
+        <div id="all-contents"> 
+        
+            <nav>
+                <h1>Jeff's Website</h1>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+               
+                </ul>
+                
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    
+                     <img src="https://i2.wp.com/thestbernardnews.com/wp-content/uploads/2017/01/chalmette-high-school-logo.jpg?resize=777%2C437">
+                </div>
+                
+                <div class="content">
+                     <h1>Jeffery</h1>
+                <p>Student at Chalmette High School</p>
+                 
+                  <section class="interests">
+                       <h1>Interests</h1>
+                        <ul>
+                            <li>Gamer </li>
+                            <li>Video Creator </li>
+                            <li>Software Developer </li>
+                        </ul>
+                    </section>
+                </div>
+              
+                
+            </main>
+            
+        </div>
+        
+    </body>
+    
+</html>
