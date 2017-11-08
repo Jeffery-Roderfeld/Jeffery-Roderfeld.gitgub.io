@@ -2,7 +2,16 @@
 <html>
     <head> 
         <title>Jeff's Website</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+ $(document).ready(function(){
+              $("button").click(function(){
+                  $("ul.professional-interests").fadeToggle();
+              });
+          });
+  </script>
     </head>
+
     <style>
             body {
                 background: rgb(145, 21, 21);
@@ -103,7 +112,20 @@
               
                 
             </main>
-            
+            <main>
+                <div class="content"
+                <header>Prfessional Interests</header>
+                <section class="interests">
+                      <button>Use me to see my professional interests</button>
+            <ul class="professional-interests">
+                <li>Software Developer</li>
+                <li>Website designer</li>
+                <li>Computer Architech</li>
+            </ul>
+                </section>
+                
+                
+            </main>
         </div>
         
     </body>
